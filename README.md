@@ -1,6 +1,6 @@
 # TestBoost
 
-[![CI](https://github.com/javalenciacai/playwrigth.test.python/actions/workflows/main.yml/badge.svg)](https://github.com/javalenciacai/playwrigth.test.python/actions/workflows/main.yml)
+[![Python unittest](https://github.com/javalenciacai/TestBoost/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/javalenciacai/TestBoost/actions/workflows/python-unittest.yml)
 
 ### [Report](https://javalenciacai.github.io/playwrigth.test.python/report.html)
 
