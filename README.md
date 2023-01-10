@@ -221,11 +221,11 @@ ____________________________
 
 #### - ¿Cómo agregar un test de API?
 
-* Aqui un video corte de como agregar un nuevo test
+* Aqui un video corto de como agregar un nuevo test
 
 #### - ¿Cómo agregar un test de interfaz de usuario
 
-* Aquí un video corte de como agregar un nuevo test
+* Aquí un video corto de como agregar un nuevo test
 
 ### VI. Conclusión
 
