@@ -250,3 +250,9 @@ ____________________________
     - Ejecuta las pruebas de manera periódica para verificar el funcionamiento del código y para detectar errores o problemas. Puedes hacerlo ejecutando el comando "pytest" o "pytest -s" en la consola.
 
     Espero que estos pasos te sean útiles para comenzar a utilizar el proyecto de pruebas automatizadas con Playwright y ptest llamado **TestBoost** en tu equipo de trabajo. Si tienes alguna otra duda o necesitas más ayuda, no dudes en preguntar.
+    
+    
+    referencias:
+    
+        - https://playwright.dev/python/docs/dialogs
+        - https://pytest-html.readthedocs.io/en/latest/
