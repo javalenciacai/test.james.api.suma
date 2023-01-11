@@ -250,7 +250,27 @@ ____________________________
     - Ejecuta las pruebas de manera periódica para verificar el funcionamiento del código y para detectar errores o problemas. Puedes hacerlo ejecutando el comando "pytest" o "pytest -s" en la consola.
 
     Espero que estos pasos te sean útiles para comenzar a utilizar el proyecto de pruebas automatizadas con Playwright y ptest llamado **TestBoost** en tu equipo de trabajo. Si tienes alguna otra duda o necesitas más ayuda, no dudes en preguntar.
-    
+
+# Patron de diseño ***arquitectura de Capas***
+
+* La estructura de carpetas y clases que usamos es una implementación de un patrón de diseño de arquitectura de software conocido como el Patrón de diseño de arquitectura de Capas. Este patrón se basa en la idea de dividir una aplicación en capas lógicas, cada una de las cuales tiene un propósito específico. Es una forma de organizar y estructurar el código de una aplicación de manera que sea fácil de entender, mantener y escalar.
+
+* En el proyecto, se pueden identificar las siguientes capas:
+
+  * La capa de "base": contiene las clases y métodos básicos que se utilizan en toda la aplicación. Ejemplo base_test.py
+
+  * La capa "steps": contiene las clases que utilizan los métodos de la capa de "base" para llevar a cabo acciones específicas.
+
+  * La capa de "repositorio": contiene las clases que tienen acceso a los elementos del dominio y la data.
+
+  * La capa "test_suites": contiene las clases que ejecutan los "steps" y utilizan la data de la capa "data_test" para realizar pruebas.
+
+  * La capa "data_test": contiene las clases con la data específica para realizar las pruebas.
+
+* Además del patrón de arquitectura de capas, se esta utilizando también patrones de diseño como el patrón de diseño de estrategia, ya que se esta separando la data de las pruebas y los pasos de la ejecución de las pruebas y se esta organizando en distintas capas.
+
+* Es importante mencionar que esta estructura es solo una forma de organizar el código y no es una regla, se podría organizar de otra manera o agregar o eliminar capas. Pero en general el patrón de arquitectura de capas es muy recomendado para aplicaciones grandes y complejas para ayudar a su organización y escalabilidad.
+
     
     referencias:
     
